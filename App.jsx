@@ -7,22 +7,17 @@ export default function App() {
     <Navbar shouldHideOnScroll>
       <NavbarBrand>
         <AcmeLogo />
-        <p className="font-bold text-inherit">ACME</p>
+        <p className="font-bold text-inherit">Jeppey</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#">
-            Features
+           Rechercher
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+            Publier un trajet
           </Link>
         </NavbarItem>
       </NavbarContent>
